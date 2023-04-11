@@ -5,19 +5,19 @@ import random
 import numpy as np
 
 from src.const import Const
-from src.const.Const import categroyMap, fileMap, tmp_dir, projName, data_dir
+from src.const.Const import categroyMap, fileMap, tmp_dir, projName, data_dir, picProjList
 
 from src.tools.FileTool import FileTool
 
 
 class AllFileConnector:
     def __init__(self):
-        root_dir = Const.base_dir + "resource/datas/"
+        root_dir = Const.base_dir + "resource/final/"
         self.alldatas = {}
         self.datas = []
         self.f = FileTool()
         for proj in Const.projList:
-            files = root_dir + proj + "/marked datas.csv"
+            files = root_dir + picProjList[Const.projList.index(proj)] + ".csv"
             tmpdatas = []
             for file in [files]:
                 data = self.f.get_data_from_file(file, "")[1:]

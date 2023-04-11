@@ -20,19 +20,19 @@ class SummaryProcess:
         self.drawGraph = DrawGraph()
         self.collectdata = CollectDatas()
         self.mathTool = MathTool()
-        self.dataProcess = DataProcess()
+        self.dataProcess = DataProcess(True)
         self.ft = FileTool()
 
     def main_process(self):
-        # self.fileAndSumBasedGraphFromFile('category', summary_dir, projList, '% of category containing actionable warnings', '% of actionable warnings')
+        self.fileAndSumBasedGraphFromFile('category', summary_dir, projList, '% of category containing actionable warnings', '% of actionable warnings')
         # self.fileAndSumBasedGraphFromFile('vtype', summary_dir, projList, '% of type containing actionable warnings', '% of actionable warnings')
         # self.fileAndSumBasedGraphFromFile('file', summary_dir, projList, '% of file containing actionable warnings', '% of actionable warnings')
         # self.fileAndSumBasedGraphFromFile('method', summary_dir, projList, '% of method containing actionable warnings', '% of actionable warnings')
         # self.fileAndBasedBarGraphFromFile('priority', summary_dir, projList, 'Priority level', '# of actionable warnings')
         # self.fileAndSumBasedGraphFromFile('rank', summary_dir, projList, '% of rank containing actionable warnings', '% of actionable warnings')
-        self.get_top1_category_graph('category', summary_dir)
+        # self.get_top1_category_graph('category', summary_dir)
         # self.get_top3_tyoes("category", summary_dir)
-        self.get_top1_vtype_graph('vtype', summary_dir)
+        # self.get_top1_vtype_graph('vtype', summary_dir)
         # self.get_top3_tyoes("vtype", summary_dir)
 
         # targets = ['Cyclomatic', 'CountLine']
@@ -146,7 +146,7 @@ class SummaryProcess:
     def get_top1_category_graph(self, based: str, save_path):
         x_times_list = {}
         y_datas_list = {}
-        save_datas = self.ft.get_data_from_file('category top1 datas.csv', 'C:/Users/lxyeah/Desktop/task1/resource/datas/summary/')[1:]
+        save_datas = self.ft.get_data_from_file('category top1 datas.csv', save_path)[1:]
         for i in save_datas:
             x_times_list[i[0]] = eval(i[1])
             y_datas_list[i[0]] = eval(i[2])
@@ -156,7 +156,7 @@ class SummaryProcess:
     def get_top1_vtype_graph(self, based: str, save_path):
         x_times_list = {}
         y_datas_list = {}
-        save_datas = self.ft.get_data_from_file('vtype top1 datas.csv', 'C:/Users/lxyeah/Desktop/task1/resource/datas/summary/')[1:]
+        save_datas = self.ft.get_data_from_file('vtype top1 datas.csv', save_path)[1:]
         for i in save_datas:
             x_times_list[i[0]] = eval(i[1])
             y_datas_list[i[0]] = eval(i[2])

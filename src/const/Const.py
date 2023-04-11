@@ -15,6 +15,19 @@ projList = [
     'commons-configuration'
 ]
 
+month_abbr_list = ['Jan',
+                   'Feb',
+                   'Mar',
+                   'Apr',
+                   'May',
+                   'Jun',
+                   'Jul',
+                   'Aug',
+                   'Sep',
+                   'Oct',
+                   'Nov',
+                   'Dec'
+                   ]
 
 picProjList = [
     'codec',

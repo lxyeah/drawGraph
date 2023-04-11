@@ -1,3 +1,4 @@
+import calendar
 import time
 
 import src.tools.cmd_tool as ct
@@ -24,7 +25,7 @@ class GitClass:
             ' ')
         if (len(time) < 4):
             return default_year
-        return int(time[4])
+        return int(time[4]) + round(int(list(calendar.month_abbr).index(time[1])) / 12, 2)
 
     def get_commitId_short_long_map(self):
         res = ct.run_command("""git log --all --pretty=format:\"%H\"""")

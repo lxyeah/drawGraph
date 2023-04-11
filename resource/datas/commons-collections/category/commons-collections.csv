@@ -1,0 +1,7 @@
+,fixed max,fixed min,fixed average,fixed median,fixed-cnt,unfixed max,unfixed min,unfixed average,unfixed median,unfixed-cnt
+BAD_PRACTICE,nan,nan,nan,nan,nan,311.0
+CORRECTNESS,93.0,93.0,93.0,93.0,1.0,11.0
+DODGY_CODE,240.0,1.0,36.0,1.0,28.0,435.0
+MALICIOUS_CODE,979.0,979.0,979.0,979.0,1.0,34.0
+Multithreaded correctness,nan,nan,nan,nan,nan,16.0
+PERFORMANCE,11.0,11.0,11.0,11.0,1.0,15.0

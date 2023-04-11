@@ -1,0 +1,10 @@
+,fixed max,fixed min,fixed average,fixed median,fixed-cnt,unfixed max,unfixed min,unfixed average,unfixed median,unfixed-cnt
+13,nan,nan,nan,nan,nan,4.0
+14,nan,nan,nan,nan,nan,10.0
+15,nan,nan,nan,nan,nan,10.0
+16,2.0,0.0,1.6363636363636365,2.0,9.0,22.0
+17,2.0,0.0,1.3333333333333333,2.0,2.0,40.0
+18,277.0,0.0,166.3013698630137,277.0,60.0,394.0
+19,0.0,0.0,0.0,0.0,0.0,83.0
+20,19.0,0.0,7.846153846153846,4.0,11.0,366.0
+6,0.0,0.0,0.0,0.0,0.0,nan

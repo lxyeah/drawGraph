@@ -1,0 +1,9 @@
+,fixed max,fixed min,fixed average,fixed median,fixed-cnt,unfixed max,unfixed min,unfixed average,unfixed median,unfixed-cnt
+BAD_PRACTICE,520.0,2.0,238.07142857142858,318.0,14.0,70.0
+CORRECTNESS,318.0,0.0,79.5,0.0,1.0,21.0
+DODGY_CODE,326.0,114.0,256.0,319.0,6.0,76.0
+I18N,nan,nan,nan,nan,nan,4.0
+MALICIOUS_CODE,318.0,257.0,264.625,257.0,8.0,16.0
+Multithreaded correctness,318.0,55.0,212.0,263.0,3.0,7.0
+PERFORMANCE,320.0,1.0,135.0,113.0,18.0,21.0
+SECURITY,520.0,2.0,289.5681818181818,326.0,44.0,209.0

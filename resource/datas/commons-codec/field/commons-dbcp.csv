@@ -1,0 +1,17 @@
+,fixed max,fixed min,fixed average,fixed median,fixed-cnt,unfixed max,unfixed min,unfixed average,unfixed median,unfixed-cnt
+DISCONNECTION_SQL_CODES,nan,nan,nan,nan,nan,4.0
+NO_FIELD,520.0,2.0,244.6153846153846,318.0,78.0,378.0
+NUPROP_WARNTEXT,319.0,1.0,212.66666666666666,318.0,3.0,2.0
+_connectionInitSqls,nan,nan,nan,nan,nan,1.0
+_pools,nan,nan,nan,nan,nan,1.0
+_resultSetType,0.0,0.0,0.0,0.0,0.0,15.0
+closed,318.0,318.0,318.0,318.0,1.0,2.0
+columnIndexes,257.0,257.0,257.0,257.0,1.0,1.0
+columnNames,257.0,257.0,257.0,257.0,1.0,1.0
+currentXid,320.0,320.0,320.0,320.0,2.0,4.0
+name,nan,nan,nan,nan,nan,1.0
+password,nan,nan,nan,nan,nan,1.0
+pools,318.0,318.0,318.0,318.0,1.0,4.0
+userName,0.0,0.0,0.0,0.0,0.0,nan
+userPassKey,55.0,55.0,55.0,55.0,1.0,3.0
+userPassword,263.0,257.0,258.0,257.0,6.0,6.0

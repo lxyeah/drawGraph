@@ -1,0 +1,11 @@
+projname,fixed,unfixed
+commons-codec,120,823
+commons-collections,31,822
+commons-fileupload,85,679
+commons-net,86,2108
+maven-dependency-plugin,83,1818
+commons-pool,566,2727
+commons-bcel,102,929
+commons-digester,77,1598
+commons-configuration,253,6061
+commons-dbcp,97,424

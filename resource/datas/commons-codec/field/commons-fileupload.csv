@@ -1,0 +1,20 @@
+,fixed max,fixed min,fixed average,fixed median,fixed-cnt,unfixed max,unfixed min,unfixed average,unfixed median,unfixed-cnt
+BOUNDARY_PREFIX,1827.0,4.0,915.5,915.5,2.0,21.0
+ENCODING_TABLE,1.0,1.0,1.0,1.0,1.0,nan
+FIELD_SEPARATOR,1827.0,4.0,915.5,915.5,2.0,21.0
+HEADER_SEPARATOR,1827.0,4.0,915.5,915.5,2.0,21.0
+NO_FIELD,2965.0,0.0,755.625,59.0,54.0,506.0
+STREAM_TERMINATOR,1827.0,4.0,915.5,915.5,2.0,21.0
+bytesWritten,1.0,1.0,1.0,1.0,1.0,nan
+cachedCharacter,1.0,1.0,1.0,1.0,1.0,nan
+cachedContent,5.0,2.0,3.0,2.0,3.0,22.0
+chars,5.0,2.0,3.0,2.0,3.0,22.0
+deferredWhitespace,1.0,1.0,1.0,1.0,1.0,nan
+dfosFile,102.0,12.0,57.0,57.0,2.0,nan
+lastCR,1.0,1.0,1.0,1.0,1.0,nan
+lastWhitespace,1.0,1.0,1.0,1.0,2.0,nan
+lineCount,1.0,1.0,1.0,1.0,1.0,nan
+lineLength,1.0,1.0,1.0,1.0,1.0,nan
+opened,2384.0,125.0,1254.5,1254.5,2.0,22.0
+out,1.0,1.0,1.0,1.0,1.0,nan
+padding,0.0,0.0,0.0,0.0,0.0,nan

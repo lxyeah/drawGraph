@@ -1,0 +1,15 @@
+,fixed max,fixed min,fixed average,fixed median,fixed-cnt,unfixed max,unfixed min,unfixed average,unfixed median,unfixed-cnt
+ANY_LANGUAGE,0.0,0.0,0.0,0.0,0.0,nan
+ESCAPE_CHAR,549.0,4.0,313.57142857142856,466.0,7.0,11.0
+NO_FIELD,835.0,0.0,113.19540229885058,27.0,81.0,709.0
+NO_LANGUAGES,0.0,0.0,0.0,0.0,0.0,nan
+PAD,232.0,1.0,153.0,226.0,3.0,27.0
+US_ENGLISH,nan,nan,nan,nan,nan,1.0
+US_ENGLISH_MAPPING,387.0,0.0,193.5,193.5,2.0,16.0
+args,0.0,0.0,0.0,0.0,0.0,nan
+buffer,217.0,2.0,109.5,109.5,2.0,2.0
+charset,nan,nan,nan,nan,nan,1.0
+languageSet,1.0,1.0,1.0,1.0,1.0,nan
+lineSeparator,17.0,17.0,17.0,17.0,1.0,nan
+modulus,18.0,0.0,2.3,1.0,6.0,18.0
+soundexMapping,387.0,277.0,332.0,332.0,2.0,1.0
